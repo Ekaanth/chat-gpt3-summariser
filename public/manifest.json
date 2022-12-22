@@ -1,0 +1,12 @@
+{
+  "name": "Product summarizer",
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "A simple product summarizer for products on amazon and flipkart for **now**",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
