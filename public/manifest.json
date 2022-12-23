@@ -4,10 +4,19 @@
   "version": "0.1",
   "description": "A simple product summarizer for products on amazon and flipkart for **now**",
   "action": {
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+    "default_title": "Generate Review"
+  },
+  "icons": {
+    "48": "search.png",
+    "72": "search.png",
+    "96": "search.png",
+    "144": "search.png",
+    "192": "search.png",
+    "512": "search.png"
   },
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"
   },
-  "permissions": ["activeTab"]
+  "permissions": ["tabs", "activeTab"]
 }
